@@ -1,4 +1,4 @@
-# Segmentation Fault Bug in [`ora`](https://github.com/sindresorhus/ora)
+# Segmentation Fault Bug in [`ora`](https://github.com/sindresorhus/ora) (https://github.com/sindresorhus/ora/issues/229)
 
 This repository demonstrates a segmentation fault error in [`ora`](https://github.com/sindresorhus/ora) when attempting to generate an executable using [`pkg`](https://github.com/vercel/pkg).
 
