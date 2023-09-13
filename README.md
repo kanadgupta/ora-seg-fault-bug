@@ -26,7 +26,7 @@ First, build the executable. You can do this by running the following:
 npx rollup -c
 
 # generates executable for your current platform/arch and stores it at dist/exe
-npx pkg dist/rollup/index.cjs --target host --output dist/exe
+npx pkg dist/rollup/index.cjs --target host --output dist/exe --debug
 ```
 
 If you attempt to run the generated executable (located at `dist/exe`), you should see something like this:
@@ -46,7 +46,7 @@ You can also reproduce the issue if you build the CommonJS script using esbuild:
 npx esbuild index.js --bundle --platform=node --outfile=dist/esbuild/index.cjs
 
 # generates executable for your current platform/arch and stores it at dist/exe
-npx pkg dist/esbuild/index.cjs --target host --output dist/exe
+npx pkg dist/esbuild/index.cjs --target host --output dist/exe --debug
 ```
 
 ### Expected Behavior
@@ -77,3 +77,4 @@ And here are the platforms/architectures I've confirmed the issue on:
 
 - Alpine / x64
 - macOS / arm64
+- macOS / x64
