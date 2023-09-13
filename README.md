@@ -76,5 +76,6 @@ Here are the Node/npm versions I am reproducing this with:
 And here are the platforms/architectures I've confirmed the issue on:
 
 - Alpine / x64
+- Linux / x64
 - macOS / arm64
 - macOS / x64
