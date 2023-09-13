@@ -1,6 +1,6 @@
 # Segmentation Fault Bug in [`ora`](https://github.com/sindresorhus/ora) (https://github.com/sindresorhus/ora/issues/229)
 
-This repository demonstrates a segmentation fault error in [`ora`](https://github.com/sindresorhus/ora) when attempting to generate an executable using [`pkg`](https://github.com/vercel/pkg).
+This repository demonstrates a segmentation fault error in [`ora`](https://github.com/sindresorhus/ora) when attempting to generate an executable using [`pkg`](https://github.com/vercel/pkg). See https://github.com/sindresorhus/ora/issues/229 for the related issue.
 
 ## Background
 
@@ -51,7 +51,7 @@ npx pkg dist/esbuild/index.cjs --target host --output dist/exe
 
 ### Expected Behavior
 
-If you go through this process again with `ora@6`, you will not see this segementation fault error.
+If you go through this process again with `ora@6`, you will not see this segmentation fault error.
 
 ```sh
 npm install ora@6
