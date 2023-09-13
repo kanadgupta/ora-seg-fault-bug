@@ -1,0 +1,22 @@
+{
+  "name": "ora-seg-fault-bug",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "Kanad Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "ora": "^7.0.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "esbuild": "^0.19.2",
+    "pkg": "^5.8.1",
+    "rollup": "^3.29.1"
+  }
+}
